@@ -20,3 +20,8 @@ dependent variable
 - Functions usually tend to be y = x something lol
 - Independent variable describes HOW AND WHEN a sample is taken
 - Dependent variable is the ACTUAL measurement
+
+-- Signal Samples
+
+- Each digitized signal point is known as a SAMPLE
+- The total # of samples is denoted by variable N
