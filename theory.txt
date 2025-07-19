@@ -25,3 +25,12 @@ dependent variable
 
 - Each digitized signal point is known as a SAMPLE
 - The total # of samples is denoted by variable N
+
+-- Mean and Standard Deviation
+
+- Mean is the AVERAGE value of a signal
+- It is found by adding all samples together, then
+dividing the sum by total # of samples (N)
+- Mean is denoted by mu (mu greek symbol from math lol)
+- In electronics, the mean is also known as the DC value
+- See figure1.jpg
