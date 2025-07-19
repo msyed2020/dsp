@@ -1,0 +1,4 @@
+Signal Statistics and Noise
+
+-- What is a signal?
+
