@@ -7,4 +7,16 @@ Signal Statistics and Noise
 
 - Signals in the real world are naturally continuous
 - It's when a continuous signal is passed thorugh an analog to
-digital converter that the signal becomes digitized, or discrete
+digital converter (ADC) that the signal becomes digitized, or discrete
+
+-- Independent and Dependent Variables
+
+- Signal is made up of two parameters, the independent variable and the
+dependent variable
+- Vertical axis represents the DEPENDENT variable
+- Horizontal axis represents the INDEPENDENT variable
+(independent - x-axis) (horizontal - y-axis)
+- Dependent variable (y-axis) is a FUNCTION of the independent variable (x-axis)
+- Functions usually tend to be y = x something lol
+- Independent variable describes HOW AND WHEN a sample is taken
+- Dependent variable is the ACTUAL measurement
