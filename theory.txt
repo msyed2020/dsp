@@ -2,3 +2,5 @@ Signal Statistics and Noise
 
 -- What is a signal?
 
+- A signal describes how one parameter RELATES to another
+(signals are plotted on multiple axes to describe a relationship)
