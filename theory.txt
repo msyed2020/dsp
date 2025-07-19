@@ -4,3 +4,7 @@ Signal Statistics and Noise
 
 - A signal describes how one parameter RELATES to another
 (signals are plotted on multiple axes to describe a relationship)
+
+- Signals in the real world are naturally continuous
+- It's when a continuous signal is passed thorugh an analog to
+digital converter that the signal becomes digitized, or discrete
