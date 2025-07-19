@@ -33,4 +33,14 @@ dependent variable
 dividing the sum by total # of samples (N)
 - Mean is denoted by mu (mu greek symbol from math lol)
 - In electronics, the mean is also known as the DC value
-- See figure1.jpg
+- See figure1.jpg for formula
+
+- Standard deviation is a measure of how far the signal
+fluctuates from the mean
+- The power of this fluctuation is known as variance
+- Standard deviation is denoted by sigma greek symbol
+- See figure2.jpg for formulas
+
+- Variance is computed by squaring the standard deviation (sigma ^ 2)
+- See figure3.jpg for formula
+
