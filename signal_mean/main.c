@@ -8,6 +8,7 @@ double avg;
 int main() {
 
     avg = calcSignalMean(&InputSignal_f32_1kHz_15kHz[0], sigLength);
+    printf("Mean = %f", avg);
     return 0;
 }
 
