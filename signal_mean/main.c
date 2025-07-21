@@ -7,3 +7,7 @@ int main() {
 
     return 0;
 }
+
+double calcSignalMean(double *signalSrcArr, int sigLength) {
+    
+}
