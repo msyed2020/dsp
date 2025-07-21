@@ -3,10 +3,11 @@
 
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 double calcSignalMean(double *signalSrcArr, int sigLength);
+double avg;
 
 int main() {
 
-
+    avg = calcSignalMean(&InputSignal_f32_1kHz_15kHz[0], sigLength);
     return 0;
 }
 
