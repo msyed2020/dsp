@@ -44,3 +44,9 @@ fluctuates from the mean
 - Variance is computed by squaring the standard deviation (sigma ^ 2)
 - See figure3.jpg for formula
 
+
+---
+
+Sampling Theorem
+
+-- Quantization

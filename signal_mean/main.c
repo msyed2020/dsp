@@ -1,3 +1,5 @@
+// gcc main.c waveforms.c -o signal_mean
+
 #include <stdio.h>
 #include <stdlib.h>
 #define SIG_LENGTH 320
