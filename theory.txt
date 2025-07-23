@@ -64,3 +64,4 @@ frequencies from 25Hz (25 cycles per second) and below
 - Before an analog signal enters the ADC, it is first passed through an analog filter
 - This filter removes frequency components above half of the sampling rate. A filtered analog signal
 is produced by this filter
+- This is referred to as the anti-alias filter
