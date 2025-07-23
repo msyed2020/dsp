@@ -69,3 +69,5 @@ is produced by this filter
 - We can perform further digital processing on this signal if we wish
 - If we wish to reconstruct our final analog signal, we can pass our output from our digital processing
 through a DAC
+- The output from the DAC is passed through another analog filter. This filter removes frequency components
+above half the sampling rate
