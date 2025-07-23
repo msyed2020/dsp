@@ -57,3 +57,6 @@ Sampling Theorem
 - Proper sampling is defined as the ability to reconstruct an exact analog signal from samples
 - Sampling theorem states that a continuous signal can properly be sample ONLY IF it doesn't contain
 frequency components above half the sampling rate
+- Ex. if we sample at 50Hz (or 50 samples per second), the analog signal we are sampling MUST be made of
+frequencies from 25Hz (25 cycles per second) and below
+- This sampling theorem is also known as the Nyquist Theorem
