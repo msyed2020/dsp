@@ -52,3 +52,5 @@ Sampling Theorem
 -- Quantization
 
 - Quantization is process of mapping continuous infinite values to a smaller set of discrete finite values
+- Sample and Hold submodule converts independent variables (x-axis) from continuous to discrete
+- Quantizer submodule converts dependent variables (y-axis) from continous to discrete
