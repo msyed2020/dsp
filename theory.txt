@@ -71,3 +71,4 @@ is produced by this filter
 through a DAC
 - The output from the DAC is passed through another analog filter. This filter removes frequency components
 above half the sampling rate
+- This output filter is referred to as the reconstruction filter
