@@ -60,3 +60,7 @@ frequency components above half the sampling rate
 - Ex. if we sample at 50Hz (or 50 samples per second), the analog signal we are sampling MUST be made of
 frequencies from 25Hz (25 cycles per second) and below
 - This sampling theorem is also known as the Nyquist Theorem
+
+- Before an analog signal enters the ADC, it is first passed through an analog filter
+- This filter removes frequency components above half of the sampling rate. A filtered analog signal
+is produced by this filter
