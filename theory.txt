@@ -65,3 +65,5 @@ frequencies from 25Hz (25 cycles per second) and below
 - This filter removes frequency components above half of the sampling rate. A filtered analog signal
 is produced by this filter
 - This is referred to as the anti-alias filter
+- The filtered analog signal is passed through the ADC, and then a digitized signal is processed
+- We can perform further digital processing on this signal if we wish
