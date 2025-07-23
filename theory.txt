@@ -54,3 +54,6 @@ Sampling Theorem
 - Quantization is process of mapping continuous infinite values to a smaller set of discrete finite values
 - Sample and Hold submodule converts independent variables (x-axis) from continuous to discrete
 - Quantizer submodule converts dependent variables (y-axis) from continous to discrete
+- Proper sampling is defined as the ability to reconstruct an exact analog signal from samples
+- Sampling theorem states that a continuous signal can properly be sample ONLY IF it doesn't contain
+frequency components above half the sampling rate
