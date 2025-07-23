@@ -50,3 +50,5 @@ fluctuates from the mean
 Sampling Theorem
 
 -- Quantization
+
+- Quantization is process of mapping continuous infinite values to a smaller set of discrete finite values
