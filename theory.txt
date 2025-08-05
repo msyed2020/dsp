@@ -80,3 +80,5 @@ above half the sampling rate
 - This filter passes low frequencies and blocks high frequencies
 - Constructed using only resistors and capacitors; it is also called the RC lowpass filter
 - Waves from sensor pass by the Passive Lowpass Filter and go to the ADC
+- The range of frequencies for which the filter causes a significant attenuation is
+called the stopband
