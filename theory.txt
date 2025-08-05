@@ -82,3 +82,5 @@ above half the sampling rate
 - Waves from sensor pass by the Passive Lowpass Filter and go to the ADC
 - The range of frequencies for which the filter causes a significant attenuation is
 called the stopband
+- On the contrary, the range of frequencies where the filter does NOT cause a significant attenuation (ranges other
+than the stopband) is called the passband
