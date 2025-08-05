@@ -84,3 +84,5 @@ above half the sampling rate
 called the stopband
 - On the contrary, the range of frequencies where the filter does NOT cause a significant attenuation (ranges other
 than the stopband) is called the passband
+- The cutoff frequency of an RC filter is the frequency in which the amplitude of the input signal is reduced
+- This cutoff frequency is denoted by Fc
