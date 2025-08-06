@@ -93,4 +93,5 @@ than the stopband) is called the passband
 
 -- Passive Highpass Filter
 
-- 
+- This filter passes high frequencies and blocks low frequencies
+- Constructed only using resistors and capacitors,
