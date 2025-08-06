@@ -89,3 +89,6 @@ than the stopband) is called the passband
 - At a high frequency, capacitor becomes a short circuit (a circuit connected to ground that doesn't exist)
 - At a low frequency, capacitor becomes an open circuit
 - Fc = 1 / 2*pi*RC (see figure4.jpg for formula)
+
+
+-- Passive Highpass Filter
