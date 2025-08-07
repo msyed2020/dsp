@@ -144,3 +144,12 @@ without allowing a ripple in the passband
 
 - The step response tells us how the filter responds when the input rapidly changes from
 one value to another
+- Chebyshev step response is characterized by overshoot and oscillations that slowly decrease in amplitude
+- Butterworth step response is characterized by overshoots and oscillations that also slowly decrease in
+amplitude, but less than that of Chebyshev
+- Bessel filter has no overshoots and oscillations. It is the best step response
+
+- Chebyshev step response at 1 Hz fc can be viewed in figure10.jpg
+- Butterworth step response at 1 Hz fc can be viewed in figure11.jpg
+- Bessel step response at 1 Hz fc can be viewed in figure12.jpg
+
