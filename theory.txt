@@ -173,3 +173,11 @@ amplitude, but less than that of Chebyshev
   - Additivity
   - Shift Invariance
 
+- Homogeneity Property
+  - A change in the amplitude of the input signal results in the corresponding
+  change in the amplitude of an output signal
+  - For instance x[n] going in a system should result in y[n], and
+  k*x[n] going in a system should result in k*y[n]
+
+- Additivity Property
+  - 
