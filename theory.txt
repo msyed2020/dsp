@@ -153,3 +153,23 @@ amplitude, but less than that of Chebyshev
 - Butterworth step response at 1 Hz fc can be viewed in figure11.jpg
 - Bessel step response at 1 Hz fc can be viewed in figure12.jpg
 
+-- Linear Systems
+
+- What is a system?
+  - A system is a process that produces an output signal, in response
+  to an input signal
+
+- A signal describes how one parameter relates to another
+- Continuous signals use parentheses, ex. x(t) or y(t)
+- Discrete signals use brackets, ex. x[t] or y[t]
+- Uppercase letters are used when working with frequency domains
+
+- Information encoding in an analog waveform
+  - Time domain encoding: Information is encoded in the sine waves of a signal
+  - Frequency domain encoding: Information is encoded in the shape of the waveform
+
+- Properties of a Linear System
+  - Homogeneity
+  - Additivity
+  - Shift Invariance
+
