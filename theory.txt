@@ -112,4 +112,8 @@ transition between the passband and stopband)
 provide signal gain (like to amplify the signal)
 - See figure5.jpg for a photo of an Active Low Pass Filter
 - See figure6.jpg for a photo of an Active High Pass Filter
-- 
+
+- Most Common Configurations
+  - Analog filters that are often used in real world applications are
+  Chebyshev, Butterworth, and Bessel
+  
