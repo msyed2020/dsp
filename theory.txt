@@ -199,4 +199,19 @@ input signal
   - Synthesis involves adding two or more signals, to form a resulting signal
   - Decomposition is the opposite of synthesis; it involves breaking one signal
   into two or more additive component signals
-  
+
+-- Impulse and Step Decomposition
+
+- Impulse decomposition breaks a signal of N samples into N component signals,
+each of which contain N samples
+- Each of the component signals contains a point from the original signal, but the
+rest of the values are zero
+- A single nonzero point in a string of zeroes is called an Impulse
+- Impulse decomposition allows signals to be examined, using one sample at a time
+- By knowing how a system responds to an impulse, the systems' output can be calculated
+for any given input
+- Step decomposition also breaks an N samples signal into N component signals, each of
+which contain N samples
+- Each component signal is a step, which means that the first samples have a value of zero,
+while the last samples have some constant value
+- Step decomposition characterizes signals by the difference between adjacent samples
