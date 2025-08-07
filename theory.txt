@@ -127,3 +127,17 @@ provide signal gain (like to amplify the signal)
 denominator and numerator of a transfer function become zero, respectively. The values
 of poles and zeroes of a system determine whether or not the system is stable
 
+- The Modified Sallen-Key filter serves as a building block for designing active filters
+such as Chebyshev, Butterworth, and Bessel
+
+- See figure7.jpg for a diagram of a low pass Modified Sallen-Key filter
+- See figure8.jpg for Resistor formulas
+
+-- Bessel, Chebyshev, and Butterworth Filters
+
+- Roll-off: A drop in amplitude
+- Chebyshev provides the sharpest roll-off, aka the fastest drop in amplitude, and characterized by ripples in the passband
+- Butterworth provides the flattest passband amongst the three, and is optimized to provide the sharpest roll off possible
+without allowing a ripple in the passband
+- The Bessel filter has no ripple in the passband, but the roll off is far worse than the Butterworth
+- The graphs for these filters can be viewed in figure9.jpg
