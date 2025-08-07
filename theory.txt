@@ -185,3 +185,18 @@ amplitude, but less than that of Chebyshev
   - x2[n] going in the system should result in y2[n]
   - Therefore, x1[n] + x2[n] going in the system should result in y1[n] + y2[n] (no mixture)
 
+- Shift Invariance Property
+  - Shift in the input signal causes an identical shift in the output signal
+  - x[n] going in the system should result in y[n]
+  - x[n + s] going in the system should result in y[n + s]
+
+-- Superposition
+
+- Superposition is the response of a linear system to a sum of signals is the sum of responses to each individual
+input signal
+
+- Synthesis and Decomposition
+  - Synthesis involves adding two or more signals, to form a resulting signal
+  - Decomposition is the opposite of synthesis; it involves breaking one signal
+  into two or more additive component signals
+  
