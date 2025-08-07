@@ -141,3 +141,6 @@ such as Chebyshev, Butterworth, and Bessel
 without allowing a ripple in the passband
 - The Bessel filter has no ripple in the passband, but the roll off is far worse than the Butterworth
 - The graphs for these filters can be viewed in figure9.jpg
+
+- The step response tells us how the filter responds when the input rapidly changes from
+one value to another
