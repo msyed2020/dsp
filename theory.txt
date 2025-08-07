@@ -116,4 +116,8 @@ provide signal gain (like to amplify the signal)
 - Most Common Configurations
   - Analog filters that are often used in real world applications are
   Chebyshev, Butterworth, and Bessel
-  
+
+- Poles and Zeroes of a transfer function are frequencies for which the value of a
+denominator and numerator of a transfer function become zero, respectively. The values
+of poles and zeroes of a system determine whether or not the system is stable
+
