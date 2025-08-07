@@ -97,4 +97,6 @@ than the stopband) is called the passband
 - Constructed only using resistors and capacitors, hence considered RC
 - In the highpass circuit, the resistor and capacitor location has swapped; resistor is connected to the ground
 and capacitor is on the main circuit
+- At a high frequency, the capacitor becomes a short circuit (turns into a wire and disappears)
+- At a low frequency, the capacitor becomes an open circuit (broken/cut wire)
 - 
