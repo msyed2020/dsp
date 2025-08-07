@@ -180,4 +180,8 @@ amplitude, but less than that of Chebyshev
   k*x[n] going in a system should result in k*y[n]
 
 - Additivity Property
-  - 
+  - A system is said to be additive if added signals pass through it without interacting
+  - x1[n] going in the system should result in y1[n]
+  - x2[n] going in the system should result in y2[n]
+  - Therefore, x1[n] + x2[n] going in the system should result in y1[n] + y2[n] (no mixture)
+
