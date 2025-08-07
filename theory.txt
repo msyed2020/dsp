@@ -107,4 +107,9 @@ transition between the passband and stopband)
 - Passive filters are made up of passive components only
 - Passive components refer to resistors, capacitors, inductors
 - Active filters, on the contrary, are made up of both active and passive components
-- These include operational amplifiers and transistors
+- These include operational amplifiers (op amps) and transistors
+- One of the advantages active filters have over passive filters is their ability to
+provide signal gain (like to amplify the signal)
+- See figure5.jpg for a photo of an Active Low Pass Filter
+- See figure6.jpg for a photo of an Active High Pass Filter
+- 
