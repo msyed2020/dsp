@@ -215,3 +215,8 @@ which contain N samples
 - Each component signal is a step, which means that the first samples have a value of zero,
 while the last samples have some constant value
 - Step decomposition characterizes signals by the difference between adjacent samples
+
+
+-- Convolution
+
+- 
