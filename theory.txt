@@ -219,4 +219,9 @@ while the last samples have some constant value
 
 -- Convolution
 
+- A mathematical operation of combining two signals together, then getting a resultant
+signal
+- Convolution relates 3 signals; the input signal, output signal, and impulse response
+- The delta function is a normalized input response; the sample number zero has a value of
+one, while all other samples have a value of zero
 - 
