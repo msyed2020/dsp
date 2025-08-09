@@ -241,3 +241,8 @@ multiplied by -3
 - In digital filter design, the impulse response is called the filter kernel,
 the convolution kernel, or just the kernel
 - In image processing, the image response is called the point spread function
+
+
+-- The Convolution Operation 
+
+- 
