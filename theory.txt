@@ -249,3 +249,13 @@ the convolution kernel, or just the kernel
 
 - Input signal (x[n]) * inpulse signal (h[n]) = output signal (y[n])
 
+- A 9 point input signal, x[n], is passed through a system with a 4 point
+impulse response, h[n], which results in a 9 + 4 - 1 = 12 point output
+signal, y[n].
+
+  - Input signal is decomposed into components
+  - Each component is passed through the system
+  - Each of the 9 samples in the input signal will
+  contribute a scaled and shifted version of the
+  impulse response to the output signal
+
