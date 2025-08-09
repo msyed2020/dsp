@@ -233,4 +233,11 @@ as input to the system
 - For example, a delta function &[n] passed through a system has an output of
 h[n] (the impulse response)
 - Any impulse can be represented as a shifted/scaled delta function
-- 
+- If we had a function a[n] where all values are 0, except n = 8 on the graph,
+which is -3, we say that a[n] = -3&[n - 8]
+- Same as the delta function shifted to the right by 8 samples, and
+multiplied by -3
+
+- In digital filter design, the impulse response is called the filter kernel,
+the convolution kernel, or just the kernel
+- In image processing, the image response is called the point spread function
