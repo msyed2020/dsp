@@ -224,4 +224,13 @@ signal
 - Convolution relates 3 signals; the input signal, output signal, and impulse response
 - The delta function is a normalized input response; the sample number zero has a value of
 one, while all other samples have a value of zero
+  - The delta function is also called the "unit impulse"
+  - It is denoted by &[n], or "delta of n" (pretend the & is a delta lol)
+- The impulse response is the signal produced as output when the delta function is provided
+as input to the system
+  - Two different systems produce two different impulse responses
+  - The impulse response is denoted by h[n]
+- For example, a delta function &[n] passed through a system has an output of
+h[n] (the impulse response)
+- Any impulse can be represented as a shifted/scaled delta function
 - 
