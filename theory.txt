@@ -258,4 +258,8 @@ signal, y[n].
   - Each of the 9 samples in the input signal will
   contribute a scaled and shifted version of the
   impulse response to the output signal
+  - Output components produced by the system are
+  synthesized to produce the output signal
 
+- Commutative Property of Convolution: x[n] + h[n] = y[n]
+is the same as h[n] + x[n] = y[n]
