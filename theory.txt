@@ -245,4 +245,7 @@ the convolution kernel, or just the kernel
 
 -- The Convolution Operation 
 
-- 
+- The convolution operation is denoted by *
+
+- Input signal (x[n]) * inpulse signal (h[n]) = output signal (y[n])
+
