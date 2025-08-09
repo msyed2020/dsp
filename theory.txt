@@ -263,3 +263,5 @@ signal, y[n].
 
 - Commutative Property of Convolution: x[n] + h[n] = y[n]
 is the same as h[n] + x[n] = y[n]
+
+-- The Convolution Sum Equation
