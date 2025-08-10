@@ -265,3 +265,11 @@ signal, y[n].
 is the same as h[n] + x[n] = y[n]
 
 -- The Convolution Sum Equation
+
+If x[n] is an N point signal that's running from 0 to N - 1, and h[n] is an M point signal running
+from 0 to M - 1, then the convolution of the two is:
+
+y[n] = h[n] * x[n]
+
+y[n] is an N + M - 1 point signal running from 0 to N + M - 2, given by:
+
