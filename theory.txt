@@ -281,3 +281,4 @@ INDEPENDENTLY of all other points in the output signal
 The index i determines which sample in the output signal is being
 calculated
 
+The index j is an iterator running through the impulse response
