@@ -273,3 +273,11 @@ y[n] = h[n] * x[n]
 
 y[n] is an N + M - 1 point signal running from 0 to N + M - 2, given by:
 
+See figure13.jpg for the formula
+
+This equation allows each point in the output signal to be calculated
+INDEPENDENTLY of all other points in the output signal
+
+The index i determines which sample in the output signal is being
+calculated
+
