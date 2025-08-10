@@ -282,3 +282,10 @@ The index i determines which sample in the output signal is being
 calculated
 
 The index j is an iterator running through the impulse response
+
+
+-- Impulse Response Revisited
+
+- Characteristics of a linear system is completely specified by
+the system's impulse response
+
