@@ -10,12 +10,12 @@ extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 
 int main() {
 
-    avg = calcSignalMean(&InputSignal_f32_1kHz_15kHz[0], SIG_LENGTH);
-    vari = calcSignalVariance(&InputSignal_f32_1kHz_15kHz[0], avg, SIG_LENGTH);
-    standardDev = calcSignalSTD(vari);
-    printf("Mean = %f\n", avg);
-    printf("Average = %f\n", vari);
-    printf("Standard Deviation = %f\n", standardDev);
+    // avg = calcSignalMean(&InputSignal_f32_1kHz_15kHz[0], SIG_LENGTH);
+    // vari = calcSignalVariance(&InputSignal_f32_1kHz_15kHz[0], avg, SIG_LENGTH);
+    // standardDev = calcSignalSTD(vari);
+    // printf("Mean = %f\n", avg);
+    // printf("Average = %f\n", vari);
+    // printf("Standard Deviation = %f\n", standardDev);
     return 0;
 }
 
