@@ -1,5 +1,7 @@
 // COMPILE: gcc main.c waveforms.c -o convolution -lm
 
+// Linear convolution algorithm
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
