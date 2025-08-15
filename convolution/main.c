@@ -43,5 +43,3 @@ double calcSignalSTD(double sigVar) {
     double std = sqrt(sigVar);
     return std;
 }
-
-// ...
