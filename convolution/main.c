@@ -16,6 +16,10 @@ extern double Impulse_response[IMP_RSP];
 
 int main() {
 
+    FILE *inputSigFPTR, *impRspFPTR;
+    inputSigFPTR = fopen('input_signal.dat', "w");
+    impRspFPTR = fopen('impulse_response.dat', "w");
+
     return 0;
 }
 
