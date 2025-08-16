@@ -21,8 +21,14 @@ int main() {
     impRspFPTR = fopen('impulse_response.dat', "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
-        fprintf(inputSigFPTR, "\n%f");
+        fprintf(inputSigFPTR, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
     }
+    fclose(inputSigFPTR);
+
+    for (int i = 0; i < IMP_RSP; i++) {
+        fprintf(impRspFPTR, "\n%f", Impulse_response[i]);
+    }
+    fclose(impRspFPTR);
 
     return 0;
 }
