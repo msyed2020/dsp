@@ -8,8 +8,10 @@
 #include <stdlib.h>
 #include <math.h>
 #define SIG_LENGTH 320
+#define IMP_RSP 29
 
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
+extern double Impulse_response[IMP_RSP];
 
 
 int main() {
