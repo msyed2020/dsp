@@ -20,6 +20,10 @@ int main() {
     inputSigFPTR = fopen('input_signal.dat', "w");
     impRspFPTR = fopen('impulse_response.dat', "w");
 
+    for (int i = 0; i < SIG_LENGTH; i++) {
+        fprintf(inputSigFPTR, "\n%f");
+    }
+
     return 0;
 }
 
