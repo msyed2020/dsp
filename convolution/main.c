@@ -13,7 +13,6 @@
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 extern double Impulse_response[IMP_RSP];
 
-// ..
 
 int main() {
 
