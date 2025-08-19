@@ -33,3 +33,8 @@ int main() {
     return 0;
 }
 
+void convolution(double *sigSrcArr, double *sigDestArr,
+                    double *impRspArr, int sigSrcLength,
+                        int impRspLength) {
+    
+}
