@@ -36,5 +36,6 @@ int main() {
 void convolution(double *sigSrcArr, double *sigDestArr,
                     double *impRspArr, int sigSrcLength,
                         int impRspLength) {
-    
+    int i;
+    int j;
 }
