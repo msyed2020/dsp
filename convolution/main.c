@@ -38,4 +38,6 @@ void convolution(double *sigSrcArr, double *sigDestArr,
                         int impRspLength) {
     int i;
     int j;
+
+    // int i and j
 }
