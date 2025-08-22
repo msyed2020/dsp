@@ -11,6 +11,7 @@
 
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 double output_sig[SIG_LENGTH];
+void calcRunningSum(double *sigSrcArr, double *sigDestArr, int sigLength);
 
 
 int main() {
@@ -24,10 +25,14 @@ int main() {
     }
     fclose(inputSigFPTR);
 
-    for (int i = 0; i < SIG_LENGTH + IMP_RSP; i++) {
+    for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(outputSigFPTR, "\n%f", output_sig[i]);
     }
     fclose(outputSigFPTR);
 
     return 0;
+}
+
+void calcRunningSum(double *sigSrcArr, double *sigDestArr, int sigLength) {
+    
 }
