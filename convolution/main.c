@@ -40,6 +40,11 @@ int main() {
     }
     fclose(impRspFPTR);
 
+    for (int i = 0; i < SIG_LENGTH + IMP_RSP; i++) {
+        fprintf(outputSigFPTR, "\n%f", output_sig[i]);
+    }
+    fclose(outputSigFPTR);
+
     return 0;
 }
 
