@@ -13,6 +13,9 @@
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 extern double Impulse_response[IMP_RSP];
 
+void convolution(double *sigSrcArr, double *sigDestArr,
+                    double *impRspArr, int sigSrcLength,
+                        int impRspLength);
 
 int main() {
 
@@ -39,7 +42,13 @@ void convolution(double *sigSrcArr, double *sigDestArr,
     int i;
     int j;
 
+    for (i = 0; i < sigSrcLength + impRspLength; i++) {
+        sigDestArr[i] = 0;
+    }
+
     for (i = 0; i < sigSrcLength; i++) {
-        
+        for (j = 0; j < impRspLength; j++) {
+            sigDestArr[i + j] += (sigSrcArr[i] * impRspArr[j]);
+        }
     }
 }
