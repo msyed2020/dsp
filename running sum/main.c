@@ -34,5 +34,7 @@ int main() {
 }
 
 void calcRunningSum(double *sigSrcArr, double *sigDestArr, int sigLength) {
-    
+    for (int i = 0; i < sigLength; i++) {
+        sigDestArr[i] += sigDestArr[i - 1];
+    }
 }
