@@ -294,7 +294,15 @@ the system's impulse response
 
 -- First Difference/Running Sum
 
-- First Difference equation: y[n] = x[n] + x[n - 1]
+- First Difference equation: y[n] = x[n] - x[n - 1]
 
 - The output signal at a given point is equal to the difference between two adjacent
 signals in the input signal
+
+- Running Sum equation: y[n] = x[n] + y[n - 1]
+
+- The output signal at a given point is equal to the sum of the input signal
+plus the previous value in the output signal
+
+- These are also known as recursive signals and play a role in designing
+infinite impulse responses
