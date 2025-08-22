@@ -296,3 +296,5 @@ the system's impulse response
 
 - First Difference equation: y[n] = x[n] + x[n - 1]
 
+- The output signal at a given point is equal to the difference between two adjacent
+signals in the input signal
