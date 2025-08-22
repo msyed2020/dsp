@@ -290,3 +290,9 @@ The index j is an iterator running through the impulse response
 the system's impulse response
 
 - The simplest impulse response is the delta function
+
+
+-- First Difference/Running Sum
+
+- First Difference equation: y[n] = x[n] + x[n - 1]
+
