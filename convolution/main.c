@@ -25,9 +25,9 @@ int main() {
     impRspFPTR = fopen("impulse_response.dat", "w");
     outputSigFPTR = fopen("output_signal.dat", "w");
 
-    convolution((double) &InputSignal_f32_1kHz_15kHz[0],
-                (double) &output_sig[0],
-                (double) &Impulse_response[0],
+    convolution((double *) &InputSignal_f32_1kHz_15kHz[0],
+                (double *) &output_sig[0],
+                (double *) &Impulse_response[0],
                 (int) SIG_LENGTH, (int) IMP_RSP);
 
     for (int i = 0; i < SIG_LENGTH; i++) {
