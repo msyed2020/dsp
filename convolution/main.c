@@ -12,6 +12,7 @@
 
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 extern double Impulse_response[IMP_RSP];
+double output_sig[SIG_LENGTH + IMP_RSP];
 
 void convolution(double *sigSrcArr, double *sigDestArr,
                     double *impRspArr, int sigSrcLength,
@@ -22,6 +23,9 @@ int main() {
     FILE *inputSigFPTR, *impRspFPTR;
     inputSigFPTR = fopen("input_signal.dat", "w");
     impRspFPTR = fopen("impulse_response.dat", "w");
+
+    convolution((double) &InputSignal_f32_1kHz_15kHz[0],
+                (double) )
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(inputSigFPTR, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
