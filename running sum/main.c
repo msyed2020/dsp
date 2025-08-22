@@ -13,10 +13,12 @@ extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 double output_sig[SIG_LENGTH];
 void calcRunningSum(double *sigSrcArr, double *sigDestArr, int sigLength);
 
-
 int main() {
 
     FILE *inputSigFPTR, *outputSigFPTR;
+
+    calcRunningSum((double *) InputSignal_f32_1kHz_15kHz, (double *) output_sig, SIG_LENGTH);
+    
     inputSigFPTR = fopen("input_signal.dat", "w");
     outputSigFPTR = fopen("output_signal.dat", "w");
 
