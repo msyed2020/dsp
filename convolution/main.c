@@ -20,9 +20,10 @@ void convolution(double *sigSrcArr, double *sigDestArr,
 
 int main() {
 
-    FILE *inputSigFPTR, *impRspFPTR;
+    FILE *inputSigFPTR, *impRspFPTR, *outputSigFPTR;
     inputSigFPTR = fopen("input_signal.dat", "w");
     impRspFPTR = fopen("impulse_response.dat", "w");
+    outputSigFPTR = fopen("output_signal.dat", "w");
 
     convolution((double) &InputSignal_f32_1kHz_15kHz[0],
                 (double) &output_sig[0],
