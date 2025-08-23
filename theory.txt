@@ -324,3 +324,11 @@ and 9 sine waves, each with a different amplitude and frequency
 Combining these waves together will reproduce the original 16 point
 long signal
 
+- Categories of signals and Fourier Transforms:
+A signal can be either continuous or discrete, and it can be either
+periodic or aperiodic
+
+- This leads to 4 categories of signals: Aperiodic-Continuous,
+Periodic-Continuous, Aperiodic-Discrete, Periodic-Discrete
+
+- 
