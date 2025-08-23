@@ -333,3 +333,10 @@ Periodic-Continuous, Aperiodic-Discrete, Periodic-Discrete
 
 - Aperiodic-Continuous signals extend to both positive and negative
 infinity without repeating a periodic pattern
+  - Examples include the Gaussian curve and exponential decay curve
+  - Fourier Transform applied to these signals are called Fourier
+  Transform
+- Periodic-Continous signals are signals that repeat themselves
+in a regular pattern from negative to positive infinity
+- Examples include sine waves, square waves, etc
+
