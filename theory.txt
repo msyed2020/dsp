@@ -336,7 +336,26 @@ infinity without repeating a periodic pattern
   - Examples include the Gaussian curve and exponential decay curve
   - Fourier Transform applied to these signals are called Fourier
   Transform
+
 - Periodic-Continous signals are signals that repeat themselves
 in a regular pattern from negative to positive infinity
-- Examples include sine waves, square waves, etc
+  - Examples include sine waves, square waves, etc
+  - Fourier Transform applied to this type of signal is called Fourier
+  Series
+
+- Aperiodic-Discrete signals are only defined at discrete points
+between positive and negative infinity, and don't repeat themselves
+in a periodic pattern
+  - Fourier Transform applied to the type of signal is called Discrete
+  Time Fourier Transform (DTFT)
+
+- Periodic-Discrete signals are signals that are discrete and repeat
+themselves in a periodic pattern
+  - Fourier Transform applied to the type of signal is called
+  Discrete Fourier Transform (DFT)
+
+- Each of the four Fourier transforms can be subdivided into real
+and complex versions
+- The real version uses ordinary numbers while the complex version
+uses complex numbers
 
