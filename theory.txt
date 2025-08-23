@@ -306,3 +306,13 @@ plus the previous value in the output signal
 
 - These are also known as recursive signals and play a role in designing
 infinite impulse responses
+
+
+-- Discrete Fourier Transform
+
+- A Fourier Transform is a set of mathematical techniques that are based
+on decomposing signals into sinusoids
+
+- Discrete Fourier Transform is the version of Fourier Transform for
+discrete signals
+
