@@ -316,3 +316,11 @@ on decomposing signals into sinusoids
 - Discrete Fourier Transform is the version of Fourier Transform for
 discrete signals
 
+- Any continuous periodic signal could be represented as the sum of
+properly chosen sinusoidal waves
+
+- Ex: Fourier decomposition of a 16 point long signal into 9 cosine waves
+and 9 sine waves, each with a different amplitude and frequency
+Combining these waves together will reproduce the original 16 point
+long signal
+
