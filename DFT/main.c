@@ -17,7 +17,7 @@ int main() {
     (double *) &outputImX[0], (int) SIG_LENGTH);
     fptr = fopen("input_signal.dat", "w");
     fptr2 = fopen("output_rex.dat", "w");
-    fptr3 = fopen("output_imx_dat", "w");
+    fptr3 = fopen("output_imx.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
