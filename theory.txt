@@ -382,4 +382,15 @@ as the time domain, but just in a different format
 - Knowing one domain allows us to calculate for the other
 - Time domain signals are represented by lower case letters,
 example given, x[] or y[]
+- Frequency domain signals are represented by uppercase letters,
+example given, X[] or Y[]
+
+- Time domains go through a DFT such as Forward DFT, DFT, analysis,
+decomposition, etc to become a frequency domain
+  - This is known as Forward DFT
+- Frequency domains that use Inverse DFT or Synthesis become a time
+domain, known as Inverse DFT
+- Calculating time domain from frequency domain is known as Synthesis,
+or Inverse DFT (IDFT)
+
 
