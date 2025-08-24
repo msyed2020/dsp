@@ -17,6 +17,13 @@ void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr,
     double PI = 3.14159265359;
 
     for (j = 0; j < sig_length / 2; j++) {
-        
+        sigDestReXArr[j] = 0;
+        sigDestImXArr[j] = 0;
+    }
+
+    for (k = 0; k < (sig_length / 2); k++) {
+        for (i = 0; i < sig_length; i++) {
+            sigDestReXArr[k] += sigSrcArr[i]*cos(2 * PI * k * i / sig_length);
+        }
     }
 }
