@@ -13,6 +13,10 @@ int main() {
 }
 
 void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr, int sig_length) {
-    int i, j;
-    
+    int i, j, k;
+    double PI = 3.14159265359;
+
+    for (j = 0; j < sig_length / 2; j++) {
+        
+    }
 }
