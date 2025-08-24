@@ -10,9 +10,25 @@ void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr,
 
 int main() {
 
+    FILE *fptr, *fptr2, *fptr3;
     calcDFT((double *) &InputSignal_f32_1kHz_15kHz[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
+    fptr = fopen("input_signal.dat", "w");
+    fptr2 = fopen("output_rex.dat", "w");
+    fptr3 = fopen("output_imx_dat", "w");
 
+    for (int i = 0; i < SIG_LENGTH; i++) {
+        fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
+    }
+
+    for (int i = 0; i < SIG_LENGTH / 2; i++) {
+        fprintf(fptr2, "\n%f", outputReX[i]);
+        fprintf(fptr3, "\n%f", outputImX[i]);
+    }
+
+    fclose(fptr);
+    fclose(fptr2);
+    fclose(fptr3);
 
     return 0;
 }
