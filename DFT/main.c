@@ -1,3 +1,5 @@
+// compile: gcc main.c waveforms.c -o dft -lm
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
