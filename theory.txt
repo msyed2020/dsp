@@ -393,4 +393,10 @@ domain, known as Inverse DFT
 - Calculating time domain from frequency domain is known as Synthesis,
 or Inverse DFT (IDFT)
 
+- Horizontal axis of the frequency domain can be labelled 3 different
+ways:
+  - As an array index running from 0 to N/2
+  - As a fraction of the sampling frequency running from 0 to 0.5
+  - As a natural frequency running from 0 to pi
+
 
