@@ -363,4 +363,12 @@ uses complex numbers
 
 - See figure14.jpg for diagram of DFT Engine
 
-- 
+- When an N-point time domain signal x[] is
+running from 0 to N-1 is passed through DFT,
+2 frequency domain signals are produced
+- Each of these signals are N/2 + 1 points long,
+and run from 0 to N/2
+
+- The real signal is written as ReX[]
+- The imaginary signal is written as ImX[]
+
