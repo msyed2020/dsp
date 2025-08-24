@@ -372,3 +372,14 @@ and run from 0 to N/2
 - The real signal is written as ReX[]
 - The imaginary signal is written as ImX[]
 
+-- Time Samples vs Frequency Domain
+
+- Time domain refers to samples taken over time
+- Frequency domain describes the amplitude of the sine
+and cosine waves produced
+- The frequency domain contains exactly the same information
+as the time domain, but just in a different format
+- Knowing one domain allows us to calculate for the other
+- Time domain signals are represented by lower case letters,
+example given, x[] or y[]
+
