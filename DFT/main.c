@@ -51,3 +51,5 @@ void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr,
         }
     }
 }
+
+void fake();
