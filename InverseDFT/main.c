@@ -37,4 +37,12 @@ int main() {
 
 void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXArr, int IDFTLength) {
     double PI = 3.14159265359;
+
+    int i;
+    int k;
+
+    for (k = 0; k < IDFTLength / 2; k++) {
+        sigDestReXArr[k] /= (IDFTLength / 2);
+        sigDestImXArr[k] = -sigDestImXArr[k] / (IDFTLength / 2); 
+    }
 }
