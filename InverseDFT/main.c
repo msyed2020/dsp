@@ -30,6 +30,7 @@ int main() {
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
+        fprintf(fptr4, "\n%f", outputIDFT[i]);
     }
 
     for (int i = 0; i < SIG_LENGTH / 2; i++) {
