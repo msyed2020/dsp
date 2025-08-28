@@ -20,6 +20,9 @@ int main() {
     FILE *fptr, *fptr2, *fptr3;
     calcDFT((double *) &InputSignal_f32_1kHz_15kHz[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
+
+    calcInverseDFT((double *) &outputIDFT[0], (double *) &outputReX[0], (double *) &outputImX[0], (int) SIG_LENGTH);
+
     fptr = fopen("input_signal.dat", "w");
     fptr2 = fopen("output_rex.dat", "w");
     fptr3 = fopen("output_imx.dat", "w");
