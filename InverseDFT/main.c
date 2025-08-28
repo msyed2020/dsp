@@ -48,6 +48,3 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
         sigDestImXArr[k] = -sigDestImXArr[k] / (IDFTLength / 2); 
     }
 }
-
-
-
