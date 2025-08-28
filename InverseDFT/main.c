@@ -1,5 +1,7 @@
 // compile: gcc main.c waveforms.c -o idft -lm
 
+// Inverse Discrete Fourier Transform
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
