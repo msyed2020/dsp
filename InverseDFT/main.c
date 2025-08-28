@@ -17,7 +17,7 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
 
 int main() {
 
-    FILE *fptr, *fptr2, *fptr3;
+    FILE *fptr, *fptr2, *fptr3, *fptr4;
     calcDFT((double *) &InputSignal_f32_1kHz_15kHz[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
 
@@ -26,6 +26,7 @@ int main() {
     fptr = fopen("input_signal.dat", "w");
     fptr2 = fopen("output_rex.dat", "w");
     fptr3 = fopen("output_imx.dat", "w");
+    fptr4 = fopen("output_idft.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
