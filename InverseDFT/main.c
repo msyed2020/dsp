@@ -10,6 +10,8 @@
 extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
 double outputReX[SIG_LENGTH / 2];
 double outputImX[SIG_LENGTH / 2];
+double outputIDFT[SIG_LENGTH];
+
 void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXArr, int IDFTLength);
 
 int main() {
@@ -55,7 +57,8 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
     }
     for (k = 0; k < IDFTLength / 2; k++) {
         for (i = 0; i < IDFTLength; i++) {
-
+            IDFTOutArr[i] += (sigSrcReXArr[k] * cos(2 * PI * k * i / IDFTLength));
+            IDFTOutArr[i] += (sigSrcImXArr[k] * sin(2 * PI * k * i / IDFTLength));
         }
     }
 }
