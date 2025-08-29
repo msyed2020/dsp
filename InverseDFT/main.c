@@ -70,7 +70,7 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
 
     for (k = 0; k < IDFTLength / 2; k++) {
         sigSrcReXArr[k] /= (IDFTLength / 2);
-        sigSrcImXArr[k] = -sigDestImXArr[k] / (IDFTLength / 2); 
+        sigSrcImXArr[k] = -sigSrcImXArr[k] / (IDFTLength / 2); 
     }
     sigSrcReXArr[0] /= 2;
     sigSrcImXArr[0] = -sigSrcImXArr[0] / 2;
