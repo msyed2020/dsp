@@ -28,10 +28,6 @@ int main() {
     fptr3 = fopen("output_imx.dat", "w");
     fptr4 = fopen("output_idft.dat", "w");
 
-
-
-    
-
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
         fprintf(fptr4, "\n%f", outputIDFT[i]);
