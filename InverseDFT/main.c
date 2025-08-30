@@ -15,6 +15,10 @@ double outputIDFT[SIG_LENGTH];
 void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr, int sig_length);
 void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXArr, int IDFTLength);
 
+
+
+
+
 int main() {
 
     FILE *fptr, *fptr2, *fptr3, *fptr4;
