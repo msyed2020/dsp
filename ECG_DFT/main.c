@@ -85,7 +85,3 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
         }
     }
 }
-
-
-
-// ecg idft
