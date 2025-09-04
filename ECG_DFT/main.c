@@ -11,6 +11,7 @@
 extern double _640_points_ecg_[SIG_LENGTH];
 double outputReX[SIG_LENGTH / 2];
 double outputImX[SIG_LENGTH / 2];
+double outputMAG[SIG_LENGTH / 2];
 double outputIDFT[SIG_LENGTH];
 
 void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr, int sig_length);
@@ -22,12 +23,15 @@ int main() {
     calcDFT((double *) &_640_points_ecg_[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
 
+    getDFTOutputMAG(&outputMAG[0]);
+
     calcInverseDFT((double *) &outputIDFT[0], (double *) &outputReX[0], (double *) &outputImX[0], (int) SIG_LENGTH);
 
     fptr = fopen("input_signal.dat", "w");
     fptr2 = fopen("output_rex.dat", "w");
     fptr3 = fopen("output_imx.dat", "w");
     fptr4 = fopen("output_idft.dat", "w");
+    fptr5 = fopen("output_mag.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", _640_points_ecg_[i]);
@@ -37,11 +41,13 @@ int main() {
     for (int i = 0; i < SIG_LENGTH / 2; i++) {
         fprintf(fptr2, "\n%f", outputReX[i]);
         fprintf(fptr3, "\n%f", outputImX[i]);
+        fprintf(fptr5, "\n%f", outputMAG[i]);
     }
 
     fclose(fptr);
     fclose(fptr2);
     fclose(fptr3);
+    fclose(fptr5);
 
     return 0;
 }
