@@ -5,9 +5,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#define SIG_LENGTH 320
+#define SIG_LENGTH 640
 
-extern double InputSignal_f32_1kHz_15kHz[SIG_LENGTH];
+
+extern double _640_points_ecg_[SIG_LENGTH];
 double outputReX[SIG_LENGTH / 2];
 double outputImX[SIG_LENGTH / 2];
 double outputIDFT[SIG_LENGTH];
@@ -18,7 +19,7 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
 int main() {
 
     FILE *fptr, *fptr2, *fptr3, *fptr4;
-    calcDFT((double *) &InputSignal_f32_1kHz_15kHz[0], (double *) &outputReX[0],
+    calcDFT((double *) &_640_points_ecg_[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
 
     calcInverseDFT((double *) &outputIDFT[0], (double *) &outputReX[0], (double *) &outputImX[0], (int) SIG_LENGTH);
@@ -29,7 +30,7 @@ int main() {
     fptr4 = fopen("output_idft.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
-        fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
+        fprintf(fptr, "\n%f", _640_points_ecg_[i]);
         fprintf(fptr4, "\n%f", outputIDFT[i]);
     }
 
@@ -83,5 +84,12 @@ void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXA
             IDFTOutArr[i] += (sigSrcReXArr[k] * cos(2 * PI * k * i / IDFTLength));
             IDFTOutArr[i] += (sigSrcImXArr[k] * sin(2 * PI * k * i / IDFTLength));
         }
+    }
+}
+
+void getDFTOutputMAG(double *sigDestMAGArr) {
+    int k;
+    for (k = 0; k < SIG_LENGTH / 2; k++) {
+        sigDestMAGArr[k] = sqrt(pow(outputReX[k], 2) + pow(outputImX[k], 2));
     }
 }
