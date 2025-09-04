@@ -1,4 +1,4 @@
-// compile: gcc main.c waveforms.c -o idft -lm
+// compile: gcc main.c waveforms.c -o ecg -lm
 
 // ECG DFT and IDFT
 
