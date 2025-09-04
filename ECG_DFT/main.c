@@ -16,14 +16,15 @@ double outputIDFT[SIG_LENGTH];
 
 void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr, int sig_length);
 void calcInverseDFT(double *IDFTOutArr, double *sigSrcReXArr, double *sigSrcImXArr, int IDFTLength);
+void getDFTOutputMAG(double *sigDestMAGArr);
 
 int main() {
 
-    FILE *fptr, *fptr2, *fptr3, *fptr4;
+    FILE *fptr, *fptr2, *fptr3, *fptr4, *fptr5;
     calcDFT((double *) &_640_points_ecg_[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
 
-    getDFTOutputMAG(&outputMAG[0]);
+    getDFTOutputMAG((double *) &outputMAG[0]);
 
     calcInverseDFT((double *) &outputIDFT[0], (double *) &outputReX[0], (double *) &outputImX[0], (int) SIG_LENGTH);
 
