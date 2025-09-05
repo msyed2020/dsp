@@ -100,6 +100,3 @@ void getDFTOutputMAG(double *sigDestMAGArr) {
         sigDestMAGArr[k] = sqrt(pow(outputReX[k], 2) + pow(outputImX[k], 2));
     }
 }
-
-
-
