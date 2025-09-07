@@ -13,15 +13,16 @@ void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr,
 
 int main() {
 
-    FILE *fptr, *fptr2, *fptr3;
+    FILE *fptr, *fptr2, *fptr3, *fptr4;
     calcDFT((double *) &InputSignal_f32_1kHz_15kHz[0], (double *) &outputReX[0],
     (double *) &outputImX[0], (int) SIG_LENGTH);
 
-    getDFTOutputMAG((double *) sigDestMAGArr);
+    getDFTOutputMAG((double *) &outputMAG);
 
     fptr = fopen("input_signal.dat", "w");
     fptr2 = fopen("output_rex.dat", "w");
     fptr3 = fopen("output_imx.dat", "w");
+    fptr4 = fopen("output_mag.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr, "\n%f", InputSignal_f32_1kHz_15kHz[i]);
@@ -30,11 +31,13 @@ int main() {
     for (int i = 0; i < SIG_LENGTH / 2; i++) {
         fprintf(fptr2, "\n%f", outputReX[i]);
         fprintf(fptr3, "\n%f", outputImX[i]);
+        fprintf(fptr4, "\n%f", outputMAG[i]);
     }
 
     fclose(fptr);
     fclose(fptr2);
     fclose(fptr3);
+    fclose(fptr4);
 
     return 0;
 }
