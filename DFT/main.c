@@ -51,3 +51,10 @@ void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr,
         }
     }
 }
+
+void getDFTOutputMAG(double *sigDestMAGArr) {
+    int k;
+    for (k = 0; k < SIG_LENGTH / 2; k++) {
+        sigDestMAGArr[k] = sqrt(pow(outputReX[k], 2) + pow(outputImX[k], 2));
+    }
+}
