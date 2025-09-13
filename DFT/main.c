@@ -10,6 +10,7 @@ double outputReX[SIG_LENGTH / 2];
 double outputImX[SIG_LENGTH / 2];
 double outputMAG[SIG_LENGTH / 2];
 void calcDFT(double * sigSrcArr, double * sigDestReXArr, double * sigDestImXArr, int sig_length);
+void getDFTOutputMAG(double *sigDestMAGArr);
 
 int main() {
 
