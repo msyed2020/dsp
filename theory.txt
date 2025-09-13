@@ -414,3 +414,7 @@ ways:
   - MagX[k] = sqrt(ReX[k]^2 + ImX[k]^2)
   - PhaseX[k] = arctan(ImX[k] / ReX[k])
 
+- Polar to Rectangular Conversion:
+  - ReX[k] = MagX[k] * cos(PhaseX[k])
+  - ImX[k] = MagX[k] * sin(PhaseX[k])
+
