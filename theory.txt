@@ -408,3 +408,9 @@ ways:
 - Acos(x) + Bsin(x) = Mcos(x + theta)
 - M = sqrt(A^2 + B^2)
 
+- theta = arctan(B / A)
+
+- Rectangular to Polar Conversion:
+  - MagX[k] = sqrt(ReX[k]^2 + ImX[k]^2)
+  - PhaseX[k] = arctan(ImX[k] / ReX[k])
+
