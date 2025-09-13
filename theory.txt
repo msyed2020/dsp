@@ -400,3 +400,11 @@ ways:
   - As a natural frequency running from 0 to pi
 
 
+-- Polar Notation
+
+- Rectangular Notation: ReX[k], ImX[k]
+- Polar Notation: MagX[k], PhaseX[k]
+
+- Acos(x) + Bsin(x) = Mcos(x + theta)
+- M = sqrt(A^2 + B^2)
+
