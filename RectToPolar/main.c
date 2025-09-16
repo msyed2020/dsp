@@ -23,6 +23,9 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
     double PI = 3.14159265358979f;
     int k;
     for (k = 0; k < sigLength; k++) {
-        sigOutMAG[k];
+        sigOutMAG[k] = sqrt(powf(sigSrcREX[k], 2) + powf(sigSrcIMX[k], 2));
+        if (sigSrcREX[k] == 0) {
+            
+        }
     }
 }
