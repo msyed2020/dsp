@@ -16,6 +16,8 @@ int main() {
     return 0;
 }
 
+
+
 void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
                             double * sigOutMAG, double * sigOutPhase,
                             int sigLength)
@@ -29,8 +31,3 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
         }
     }
 }
-
-
-
-
-
