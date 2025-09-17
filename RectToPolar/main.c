@@ -25,7 +25,8 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
     for (k = 0; k < sigLength; k++) {
         sigOutMAG[k] = sqrt(powf(sigSrcREX[k], 2) + powf(sigSrcIMX[k], 2));
         if (sigSrcREX[k] == 0) {
-            
+            sigSrcREX[k] = pow(10, -20);
+            sigOutPhase[k] = atan(sigSrcIMX[k] / sigSrcREX[k]);
         }
     }
 }
