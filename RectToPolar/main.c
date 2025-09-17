@@ -23,7 +23,9 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
     double PI = 3.14159265358979f;
     int k;
     for (k = 0; k < sigLength; k++) {
+
         sigOutMAG[k] = sqrt(powf(sigSrcREX[k], 2) + powf(sigSrcIMX[k], 2));
+        
         if (sigSrcREX[k] == 0) {
             sigSrcREX[k] = pow(10, -20);
             sigOutPhase[k] = atan(sigSrcIMX[k] / sigSrcREX[k]);
@@ -34,7 +36,9 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
         }
 
         if ((sigSrcREX[k] < 0) && (sigSrcIMX[k] >= 0)) {
-            
+            sigOutPhase[k] += PI;
         }
+
+
     }
 }
