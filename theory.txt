@@ -424,3 +424,9 @@ ways:
 
 - Complex number example: 2 + 6j, -4 - 1.5j, 3 - 7j
 
+- Separated into Real (Re) and Imaginary (Im) parts:
+- Re: 2, Im: 6. Re: -4, Im: -1.5. Re: 3, Im: -7 (as per example above)
+
+- Adding/subtracting/multiplying complex number equations require matching like terms,
+ex. 3 + 5j + 4 + 2j = 7 + 7j
+
