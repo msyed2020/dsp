@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 #define SIG_LENGTH 320
 
 extern double _320_pts_ecg_IMX[SIG_LENGTH];
