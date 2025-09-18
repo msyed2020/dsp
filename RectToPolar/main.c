@@ -14,7 +14,9 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
 
 int main() {
 
-    rectToPolarConversion((double *) &_320_pts_ecg_REX[0]);
+    rectToPolarConversion((double *) &_320_pts_ecg_REX[0], (double *) &_320_pts_ecg_IMX[0],
+                            (double *) &OutputMAG[0], (double *) &OutputPhase[0],
+                            (int) SIG_LENGTH);
 
 
     return 0;
