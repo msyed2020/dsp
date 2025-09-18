@@ -5,12 +5,16 @@
 extern double _320_pts_ecg_IMX[SIG_LENGTH];
 extern double _320_pts_ecg_REX[SIG_LENGTH];
 
+double OutputMAG[SIG_LENGTH];
+double OutputPhase[SIG_LENGTH];
+
 void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
                             double * sigOutMAG, double * sigOutPhase,
                             int sigLength);
 
 int main() {
 
+    rectToPolarConversion((double *) &_320_pts_ecg_REX[0]);
 
 
     return 0;
