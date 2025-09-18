@@ -3,6 +3,8 @@
 #include <math.h>
 #define SIG_LENGTH 320
 
+// compile: compile: gcc main.c waveforms.c -o recttopolar -lm
+
 extern double _320_pts_ecg_IMX[SIG_LENGTH];
 extern double _320_pts_ecg_REX[SIG_LENGTH];
 
