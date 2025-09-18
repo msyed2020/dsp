@@ -31,6 +31,11 @@ int main() {
         fprintf(outputPhasefptr, "\n%f", OutputPhase[i]);
     }
 
+    fclose(inputREXfptr);
+    fclose(inputIMXfptr);
+    fclose(outputMAGfptr);
+    fclose(outputPhasefptr);
+
     return 0;
 }
 
