@@ -418,3 +418,9 @@ ways:
   - ReX[k] = MagX[k] * cos(PhaseX[k])
   - ImX[k] = MagX[k] * sin(PhaseX[k])
 
+
+
+-- Complex Numbers
+
+- Complex number example: 2 + 6j, -4 - 1.5j, 3 - 7j
+
