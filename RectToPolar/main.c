@@ -14,10 +14,15 @@ void rectToPolarConversion(double * sigSrcREX, double * sigSrcIMX,
 
 int main() {
 
+    FILE *inputREXfptr, *inputIMXfptr, *outputMAGfptr, *outputPhasefptr;
     rectToPolarConversion((double *) &_320_pts_ecg_REX[0], (double *) &_320_pts_ecg_IMX[0],
                             (double *) &OutputMAG[0], (double *) &OutputPhase[0],
                             (int) SIG_LENGTH);
 
+    inputREXfptr = fopen("input_rex.dat", "w");
+    inputIMXfptr = fopen("input_imx.dat", "w");
+    outputMAGfptr = fopen("output_magnitude.dat", "w");
+    outputPhasefptr = fopen("output_phase.dat", "w");
 
     return 0;
 }
