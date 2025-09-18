@@ -24,6 +24,13 @@ int main() {
     outputMAGfptr = fopen("output_magnitude.dat", "w");
     outputPhasefptr = fopen("output_phase.dat", "w");
 
+    for (int i = 0; i < SIG_LENGTH; i++) {
+        fprintf(inputREXfptr, "\n%f", _320_pts_ecg_REX[i]);
+        fprintf(inputIMXfptr, "\n%f", _320_pts_ecg_IMX[i]);
+        fprintf(outputMAGfptr, "\n%f", OutputMAG[i]);
+        fprintf(outputPhasefptr, "\n%f", OutputPhase[i]);
+    }
+
     return 0;
 }
 
