@@ -430,3 +430,6 @@ ways:
 - Adding/subtracting/multiplying complex number equations require matching like terms,
 ex. 3 + 5j + 4 + 2j = 7 + 7j
 
+- Rectangular to Polar Notation
+
+- Lol
