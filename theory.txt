@@ -427,3 +427,12 @@ ways:
 
 - Adding/subtracting/multiplying complex number equations require matching like terms,
 ex. 3 + 5j + 4 + 2j = 7 + 7j
+
+- Polar Notation of Complex Numbers
+
+- M = sqrt((ReA)^2 + (ImA)^2)
+- theta = arctan(ImA/ReA)
+- ReA = Mcos(theta)
+- ImA = Msin(theta)
+- a + jb = M(cos(theta) + j sin(theta))
+
