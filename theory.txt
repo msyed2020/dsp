@@ -436,3 +436,6 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 - ImA = Msin(theta)
 - a + jb = M(cos(theta) + j sin(theta))
 
+- Euler's Relation
+
+- e^(jx) = cosx + jsinx
