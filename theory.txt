@@ -439,3 +439,7 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 - Euler's Relation
 
 - e^(jx) = cosx + jsinx
+  - Can also be rewritten as: a + jb = Me^(j*theta)
+
+- M1e^(j*theta1) * M2e^(j*theta2) = M1M2e^(j * (theta1 + theta2))
+
