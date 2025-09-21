@@ -449,3 +449,11 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 
 - A*cos(wx) + B*sin(wx) <=> a + jb, where w = 2*pi*f (f is natural frequency)
 
+- A <=> a: Amplitude of cosine wave
+- B <=> -b: Negative amplitude of sine wave
+
+- M*cos(wt + phi) <=> Me^(j * theta)
+
+- M <=> M: Amplitude of cosine wave
+- theta <=> -phi: Negative amplitude of sine wave
+
