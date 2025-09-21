@@ -443,3 +443,9 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 
 - M1e^(j*theta1) * M2e^(j*theta2) = M1M2e^(j * (theta1 + theta2))
 
+- M1e^(j*theta1) / M2e^(j*theta2) = (M1 / M2) * e^(j * (theta1 - theta2))
+
+- Representation of Sinusoids
+
+- A*cos(wx) + B*sin(wx) <=> a + jb, where w = 2*pi*f (f is natural frequency)
+
