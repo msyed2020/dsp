@@ -457,3 +457,5 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 - M <=> M: Amplitude of cosine wave
 - theta <=> -phi: Negative amplitude of sine wave
 
+- In complex notation, 3cos(wt + pi/4) becomes 3e^(-j*(pi / 4)) for example
+
