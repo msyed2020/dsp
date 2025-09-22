@@ -459,3 +459,7 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 
 - In complex notation, 3cos(wt + pi/4) becomes 3e^(-j*(pi / 4)) for example
 
+-- Complex Fourier Transform
+
+- See figure15.jpg for Complex Fourier Transform formula
+-
