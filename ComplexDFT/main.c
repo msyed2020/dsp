@@ -20,7 +20,7 @@ void complexDFT(double *sigSrcTimeDomainReX,
 
 int main() {
 
-    FILE *inputREXfptr, *inputIMXfptr, *outputMAGfptr, *outputPhasefptr;
+    FILE *inputREXfptr, *inputIMXfptr, *outputREXfptr, *outputIMXfptr;
 
     complexDFT((double *) &_501pts_20Hz_sig_rex[0],
                 (double *) &_501pts_20Hz_sig_imx[0],
@@ -30,20 +30,20 @@ int main() {
 
     inputREXfptr = fopen("input_rex.dat", "w");
     inputIMXfptr = fopen("input_imx.dat", "w");
-    outputMAGfptr = fopen("output_magnitude.dat", "w");
-    outputPhasefptr = fopen("output_phase.dat", "w");
+    outputREXfptr = fopen("output_magnitude.dat", "w");
+    outputIMXfptr = fopen("output_phase.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(inputREXfptr, "\n%f", _501pts_20Hz_sig_rex[i]);
         fprintf(inputIMXfptr, "\n%f", _501pts_20Hz_sig_imx[i]);
-        fprintf(outputMAGfptr, "\n%f", OutputMAG[i]);
-        fprintf(outputPhasefptr, "\n%f", OutputPhase[i]);
+        fprintf(outputREXfptr, "\n%f", OutputReX[i]);
+        fprintf(outputIMXfptr, "\n%f", OutputImX[i]);
     }
 
     fclose(inputREXfptr);
     fclose(inputIMXfptr);
-    fclose(outputMAGfptr);
-    fclose(outputPhasefptr);
+    fclose(outputREXfptr);
+    fclose(outputIMXfptr);
 
     return 0;
 }
