@@ -35,3 +35,14 @@ int main() {
 
     return 0;
 }
+
+void complexDFT(double *sigSrcTimeDomainReX,
+                double *sigSrcTimeDomainImX,
+                double *sigDestFreqDomainReX,
+                double *sigDestFreqDomainImX,
+                int sigLength) 
+{
+
+    
+
+}
