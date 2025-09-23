@@ -8,13 +8,25 @@
 extern double _501pts_20Hz_sig_imx[SIG_LENGTH];
 extern double _501pts_20Hz_sig_rex[SIG_LENGTH];
 
-double OutputMAG[SIG_LENGTH];
-double OutputPhase[SIG_LENGTH];
+double OutputReX[SIG_LENGTH];
+double OutputImX[SIG_LENGTH];
+
+void complexDFT(double *sigSrcTimeDomainReX,
+                double *sigSrcTimeDomainImX,
+                double *sigDestFreqDomainReX,
+                double *sigDestFreqDomainImX,
+                int sigLength);
 
 
 int main() {
 
     FILE *inputREXfptr, *inputIMXfptr, *outputMAGfptr, *outputPhasefptr;
+
+    complexDFT((double *) &_501pts_20Hz_sig_rex[0],
+                (double *) &_501pts_20Hz_sig_imx[0],
+                (double *) &OutputReX[0],
+                (double *) &OutputImX[0],
+                (int) SIG_LENGTH);
 
     inputREXfptr = fopen("input_rex.dat", "w");
     inputIMXfptr = fopen("input_imx.dat", "w");
@@ -54,6 +66,7 @@ void complexDFT(double *sigSrcTimeDomainReX,
             SImX = -1 * sin(2*PI*k*i / sigLength);
 
             sigDestFreqDomainReX[k] += (SReX * sigSrcTimeDomainReX[i]) - (SImX * sigSrcTimeDomainImX[i]);
+            sigDestFreqDomainImX[k] += (SImX * sigSrcTimeDomainImX[i]) - (sigSrcTimeDomainImX[i]);
         }
     }    
 
