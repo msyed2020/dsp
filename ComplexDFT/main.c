@@ -45,6 +45,10 @@ void complexDFT(double *sigSrcTimeDomainReX,
 
     double PI = 3.14159265358979f;
 
-    
+    double SR;
+    double SI;
+    for (int k = 0; k < sigLength; k++) {
+        
+    }    
 
 }
