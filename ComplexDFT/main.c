@@ -22,8 +22,8 @@ int main() {
     outputPhasefptr = fopen("output_phase.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
-        fprintf(inputREXfptr, "\n%f", _320_pts_ecg_REX[i]);
-        fprintf(inputIMXfptr, "\n%f", _320_pts_ecg_IMX[i]);
+        fprintf(inputREXfptr, "\n%f", _501pts_20Hz_sig_rex[i]);
+        fprintf(inputIMXfptr, "\n%f", _501pts_20Hz_sig_imx[i]);
         fprintf(outputMAGfptr, "\n%f", OutputMAG[i]);
         fprintf(outputPhasefptr, "\n%f", OutputPhase[i]);
     }
@@ -42,6 +42,8 @@ void complexDFT(double *sigSrcTimeDomainReX,
                 double *sigDestFreqDomainImX,
                 int sigLength) 
 {
+
+    double PI = 3.14159265358979f;
 
     
 
