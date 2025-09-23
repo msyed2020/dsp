@@ -52,6 +52,8 @@ void complexDFT(double *sigSrcTimeDomainReX,
         for (int i = 0; i < sigLength; i++) {
             SReX = cos(2*PI*k*i / sigLength);
             SImX = -1 * sin(2*PI*k*i / sigLength);
+
+            sigDestFreqDomainReX[k] += (SReX * sigSrcTimeDomainReX[i]) - (SImX * sigSrcTimeDomainImX[i]);
         }
     }    
 
