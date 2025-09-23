@@ -3,7 +3,7 @@
 #include <math.h>
 #define SIG_LENGTH 501
 
-// compile: compile: gcc main.c waveforms.c -o recttopolar -lm
+// compile: compile: gcc main.c waveforms.c -o complexdft -lm
 
 extern double _501pts_20Hz_sig_imx[SIG_LENGTH];
 extern double _501pts_20Hz_sig_rex[SIG_LENGTH];
@@ -30,8 +30,8 @@ int main() {
 
     inputREXfptr = fopen("input_rex.dat", "w");
     inputIMXfptr = fopen("input_imx.dat", "w");
-    outputREXfptr = fopen("output_magnitude.dat", "w");
-    outputIMXfptr = fopen("output_phase.dat", "w");
+    outputREXfptr = fopen("output_rex.dat", "w");
+    outputIMXfptr = fopen("output_imx.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(inputREXfptr, "\n%f", _501pts_20Hz_sig_rex[i]);
