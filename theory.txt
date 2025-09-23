@@ -461,9 +461,11 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 
 -- Complex Fourier Transform
 
-- See figure15.jpg for Discrete Fourier Transform formula
+- See figure15.jpg for Discrete Fourier Transform formula (or Real DFT formula)
 - See figure16.jpg and figure17.jpg for Mathematical Equivalence formulas
 
 - See figure18.jpg for Complex DFT formula using Polar Notation
 - See figure19.jpg for Complex DFT formula using Rectangular Notation
+
+- See figure20.jpg for Inverse Complex DFT formula
 
