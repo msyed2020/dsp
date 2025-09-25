@@ -491,4 +491,5 @@ each made of a single point
 
 - See figure24.jpg for a review of the Complex DFT equation
 
-- 
+- In FFT case, calculate Complex DFT for all points, from 0 to N - 1 and plug N in where n is
+
