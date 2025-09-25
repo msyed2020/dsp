@@ -476,4 +476,10 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 - N points: X[0] to X[N - 1] (each part split into ReX[i] and ImX[i],
 where i is the current point)
 
-- 
+1. N points time domain signal gets decomposed into N time domain signals
+each made of a single point
+
+2. Calculate N frequency spectra corresponding to these N time domain signals
+
+3. Synthesize N frequency spectra into a single frequency spectrum
+
