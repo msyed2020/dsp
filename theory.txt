@@ -488,3 +488,7 @@ each made of a single point
 - The signals are also given in bit reversed order (see figure23.jpg)
 
 -- Fast Fourier Transform
+
+- See figure24.jpg for a review of the Complex DFT equation
+
+- 
