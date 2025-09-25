@@ -473,3 +473,7 @@ ex. 3 + 5j + 4 + 2j = 7 + 7j
 
 -- FFT Overview:
 
+- N points: X[0] to X[N - 1] (each part split into ReX[i] and ImX[i],
+where i is the current point)
+
+- 
