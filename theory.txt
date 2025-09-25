@@ -485,3 +485,6 @@ each made of a single point
 
 - See figure21.jpg and figure22.jpg for a visual dissection of the decomposition
 
+- The signals are also given in bit reversed order (see figure23.jpg)
+
+-- Fast Fourier Transform
