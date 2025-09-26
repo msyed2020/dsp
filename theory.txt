@@ -494,5 +494,8 @@ each made of a single point
 - In FFT case, calculate Complex DFT for all points, from 0 to N - 1 and plug N in where n is
 
 
--- Decimation in Time FFT Example
+-- Digital Filter Design
 
+- Used for Signal Separation and Signal Restoration
+
+- 
