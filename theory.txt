@@ -498,4 +498,5 @@ each made of a single point
 
 - Used for Signal Separation and Signal Restoration
 
-- 
+- Analog filters are generally better than digital filters
+
