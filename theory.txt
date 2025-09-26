@@ -500,3 +500,4 @@ each made of a single point
 
 - Analog filters are generally better than digital filters
 
+- Input and output signals are usually in the Time Domain
