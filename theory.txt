@@ -517,3 +517,6 @@ a certain point and can be ignored)
 
 -- If you perform integration on Impulse Responses you get a Frequency Response
 
+-- Logarithmic Scale and Decibels
+
+- 
