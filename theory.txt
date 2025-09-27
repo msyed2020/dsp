@@ -515,4 +515,5 @@ and a Frequency Response
 because the impulse responses are infinite (but values stop becoming relevant after
 a certain point and can be ignored)
 
-- 
+-- If you perform integration on Impulse Responses you get a Frequency Response
+
