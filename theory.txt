@@ -508,3 +508,11 @@ and a Frequency Response
 -- Filter kernel
 
 - Input and Impulse Responses create an Output Response
+
+- These can also be designed by recursion
+
+- Recursive filters are referred to as IIRs (Infinite Impulse Responses) Filters
+because the impulse responses are infinite (but values stop becoming relevant after
+a certain point and can be ignored)
+
+- 
