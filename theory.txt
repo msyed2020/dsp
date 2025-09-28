@@ -519,4 +519,6 @@ a certain point and can be ignored)
 
 -- Logarithmic Scale and Decibels
 
-- 
+- A bel is a power change by a factor of 10 (4 bels = 10x10x10x10 = 10000)
+
+- decibel (dB) = 1/10th of a bel
