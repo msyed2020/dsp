@@ -524,3 +524,7 @@ a certain point and can be ignored)
 - decibel (dB) = 1/10th of a bel
 
 - 0dB: 1, -10dB: 0.1, -20dB: 0.01, 10dB = 10, 20dB = 100
+
+- dBV = 1 volt RMS signal
+
+- -3dB = amplitude reduction of 0.707 power reduction of 0.5
