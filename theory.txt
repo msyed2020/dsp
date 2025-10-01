@@ -537,4 +537,8 @@ a certain point and can be ignored)
 
 -- Time Domain Parameters
 
-- See figure25.jpg and figure26.jpg
+- See figure25.jpg and figure26.jpg and figure27.jpg
+
+-- Frequency Domain Parameters
+
+- 
