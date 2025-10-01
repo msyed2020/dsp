@@ -16,10 +16,6 @@ void complexDFT(double *sigSrcTimeDomainReX,
                 double *sigDestFreqDomainReX,
                 double *sigDestFreqDomainImX,
                 int sigLength);
-
-
-
-    // i live for you grace
                 
 int main() {
 
