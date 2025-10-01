@@ -541,4 +541,7 @@ a certain point and can be ignored)
 
 -- Frequency Domain Parameters
 
-- 
+- Passband: Frequencies allowed to pass
+- Transition band: Frequencies between passband and stopband
+- Stopband: Frequencies now blocked
+- Fast roll off: Narrow transmission band
