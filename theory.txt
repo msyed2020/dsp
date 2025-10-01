@@ -528,3 +528,10 @@ a certain point and can be ignored)
 - dBV = 1 volt RMS signal
 
 - -3dB = amplitude reduction of 0.707 power reduction of 0.5
+
+-- Signal Representations of Information
+
+- Time Domain Information
+
+- Frequency Domain Information
+
