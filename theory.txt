@@ -547,3 +547,5 @@ a certain point and can be ignored)
 - Fast roll off: Narrow transmission band
 
 -- Doing Digital Signal Processing soon enough lol
+
+-- It's easy to want to fall but people are counting on me
