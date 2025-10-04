@@ -551,3 +551,8 @@ a certain point and can be ignored)
 - Filter kernel signal values are flipped signs, and the center value greatly exaggerates (adds 1)
 - Frequency response gets inverted
 
+-- Filter Design Using Spectral Reversal
+
+- Frequency response is reversed -- last values in frequency become first, first become last, etc
+- Filter kernel signal values are flipped signs EVERY OTHER VALUE
+
