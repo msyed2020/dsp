@@ -545,3 +545,5 @@ a certain point and can be ignored)
 - Transition band: Frequencies between passband and stopband
 - Stopband: Frequencies now blocked
 - Fast roll off: Narrow transmission band
+
+-- Will touch tmrw sorry I procrastinated
