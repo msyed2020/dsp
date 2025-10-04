@@ -556,3 +556,4 @@ a certain point and can be ignored)
 - Frequency response is reversed -- last values in frequency become first, first become last, etc
 - Filter kernel signal values are flipped signs EVERY OTHER VALUE
 
+-- See figure28.jpg for classifications of digital filters
