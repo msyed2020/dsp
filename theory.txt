@@ -545,3 +545,8 @@ a certain point and can be ignored)
 - Transition band: Frequencies between passband and stopband
 - Stopband: Frequencies now blocked
 - Fast roll off: Narrow transmission band
+
+-- Filter Design Using Spectral Inversion
+
+- Filter kernel signal values are flipped signs, and the center value greatly exaggerates
+- Frequency response gets inverted
