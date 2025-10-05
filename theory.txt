@@ -573,3 +573,11 @@ a certain point and can be ignored)
 -- Infinite Impulse Response (IIR) Filters
 
 - See figure31.jpg for Recursion Equation
+
+- Other Recursive Filter includes Single Pole Recursive Filter and Digital Chebyshev filter
+- When designing a Chebyshev filter, take the following steps:
+  - HP or LP response
+  - Cutoff frequency
+  - Percentage of passband ripples
+  - # of poles
+
