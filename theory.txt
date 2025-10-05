@@ -569,3 +569,7 @@ a certain point and can be ignored)
   - See figure30.jpg for formula
 
 - Other Average Filter includes Multiple Pass Moving Average Filter
+
+-- Infinite Impulse Response (IIR) Filters
+
+- See figure31.jpg for Recursion Equation
