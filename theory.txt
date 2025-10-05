@@ -557,3 +557,10 @@ a certain point and can be ignored)
 - Filter kernel signal values are flipped signs EVERY OTHER VALUE
 
 -- See figure28.jpg for classifications of digital filters
+
+
+-- Finite Impulse Response (FIR) Filters
+
+-- Moving Average Filters
+
+- Best for time domain signals, worst for frequency domain signals
