@@ -561,9 +561,11 @@ a certain point and can be ignored)
 
 -- Finite Impulse Response (FIR) Filters
 
--- Moving Average Filters
+- Moving Average Filters
+  - Best for time domain signals, worst for frequency domain signals
+  - See figure29.jpg for FIR Filter formula
 
-- Best for time domain signals, worst for frequency domain signals
+- Recursive Moving-Average Algorithm
+  - See figure30.jpg for formula
 
-- See figure29.jpg for FIR Filter formula
-
+- Other Average Filter includes Multiple Pass Moving Average Filter
