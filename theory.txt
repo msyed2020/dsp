@@ -582,3 +582,5 @@ a certain point and can be ignored)
   - # of poles
 
 -- I have learned that rest is productive
+
+-- Skip a day...I think not >:)
