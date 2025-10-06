@@ -581,3 +581,4 @@ a certain point and can be ignored)
   - Percentage of passband ripples
   - # of poles
 
+-- I have learned that rest is productive
