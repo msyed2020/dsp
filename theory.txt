@@ -580,9 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
--- I have learned that rest is productive
-
--- Skip a day...I think not >:)
-
--- Max aura
