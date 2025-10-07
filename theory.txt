@@ -580,7 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
--- Didn't think post recovery meant pooping a bunch
--- LOL
--- Ahhh my supplier keeps calling me
