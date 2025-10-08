@@ -580,7 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
-- Still so sick and sleepy
-
-- My eyes feel so heavy
