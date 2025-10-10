@@ -580,7 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
-- Physiological release is crazy
-
--- guy fr said I had nothing to worry about when it came to jobs
