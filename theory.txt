@@ -580,9 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
-- Making music is becoming fun again
-
-- Not clickbating kiyosaki again XD
-
-- 
