@@ -580,9 +580,3 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
-
--- Tmrw I will try to actually make progress again XD
-
--- This shift stuff isn't for the weak
-
--- Especially recovering from sickness too
