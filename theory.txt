@@ -582,3 +582,5 @@ a certain point and can be ignored)
   - # of poles
 
 -- Tmrw I will try to actually make progress again XD
+
+-- This shift stuff isn't for the weak
