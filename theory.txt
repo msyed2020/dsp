@@ -580,3 +580,5 @@ a certain point and can be ignored)
   - Cutoff frequency
   - Percentage of passband ripples
   - # of poles
+
+-- Sry might need another day :)
