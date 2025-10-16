@@ -596,3 +596,8 @@ samples, so the solution to that is truncated sinc filters
   - Points truncated to M + 1 points, symetrically chosen around the lobe
   - All points outside M + 1 points are set to 0 (or ignored)
   - Entire sequence is shifted to the right so that it runs from 0 to M
+
+- Multiplying the Truncated Sinc Filter Kernel by the Blackman/Hamming Window results
+in what's called the Windowed Sinc Filter Kernel
+
+- See figure32.jpg for the Hamming and Blackman Window equations
