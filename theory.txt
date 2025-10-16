@@ -582,3 +582,10 @@ a certain point and can be ignored)
   - # of poles
 
 -- Sinc Function/Truncated Sinc Filter
+
+- Ideal Filter Kernel is the inverse of the Ideal Frequency Response
+
+- Ideal Filter Kernel is given by the sinc function: sin(x) / x 
+- Ideal Frequency Response is given by h[i] = sin(2*pi*fc*i) / i*pi
+
+- Truncated Sinc Filters
