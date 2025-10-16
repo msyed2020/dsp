@@ -601,3 +601,7 @@ samples, so the solution to that is truncated sinc filters
 in what's called the Windowed Sinc Filter Kernel
 
 - See figure32.jpg for the Hamming and Blackman Window equations
+
+-- Designing a Windowed Sinc Filter
+
+- Required parameters: Cutoff frequency (fc) and Filter Kernel length (M)
