@@ -588,4 +588,11 @@ a certain point and can be ignored)
 - Ideal Filter Kernel is given by the sinc function: sin(x) / x 
 - Ideal Frequency Response is given by h[i] = sin(2*pi*fc*i) / i*pi
 
+- Ideal Filter Kernels/Frequency Responses are conceptually infinite
+and don't fit real world scenarios and are always dependent on future
+samples, so the solution to that is truncated sinc filters
+
 - Truncated Sinc Filters
+  - Points truncated to M + 1 points, symetrically chosen around the lobe
+  - All points outside M + 1 points are set to 0 (or ignored)
+  - Entire sequence is shifted to the right so that it runs from 0 to M
