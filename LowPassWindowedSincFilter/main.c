@@ -34,4 +34,11 @@ for (int i = 0; i < filterLength; i++) {
     }
 }
 
+for (int j = filterLength; j < inputSigLength; j++) {
+    sig_dest_arr[j] = 0;
+    for (int i = 0; i < filterLength; i++) {
+        sig_dest_arr[j] += sig_src_arr[j - 1] * fltr_kernel_dest[i];
+    }
+}
+
 }
