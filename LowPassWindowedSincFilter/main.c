@@ -24,6 +24,8 @@ void lowPassWindowSincFilter(double *sig_src_arr,
 
 // Calculate low pass filter kernel
 
+double M_PI = 3.14159265358979f;
+
 for (int i = 0; i < filterLength; i++) {
     if ((i - filterLength) / 2 == 0) {
         fltr_kernel_dest[i] = 2 * M_PI * cutoffFreq;
