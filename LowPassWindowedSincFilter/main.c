@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
+#define SIG_LENGTH 320
+#define KERNEL_LENGTH 29
+
+extern double InputSignal_f32_1kHz_15kHz[320];
+double outputSignal[SIG_LENGTH - KERNEL_LENGTH];
+double outputKernel[KERNEL_LENGTH];
+
 void lowPassWindowSincFilter(double *sig_src_arr,
                             double *sig_dest_arr,
                             double *fltr_kernel_dest,
