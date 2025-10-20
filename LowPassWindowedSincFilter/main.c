@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 #define SIG_LENGTH 320
 #define KERNEL_LENGTH 29
 
@@ -15,6 +19,8 @@ void lowPassWindowSincFilter(double *sig_src_arr,
                             double cutoffFreq,
                             int filterLength,
                             int inputSigLength);
+
+// compile: compile: gcc main.c waveforms.c -o lpwsf -lm
 
 /*
 
@@ -38,10 +44,10 @@ int main() {
 
     for (int i = 0; i < SIG_LENGTH; i++) {
         fprintf(fptr2, "\n%lf", InputSignal_f32_1kHz_15kHz[i]);
-        if (i >= KERNEL_LENGTH) {
+        if (i > KERNEL_LENGTH) {
             fprintf(fptr1, "\n%lf", outputSignal[i]);
         }
-        if (i <= KERNEL_LENGTH) {
+        if (i < KERNEL_LENGTH) {
             fprintf(fptr3, "\n%lf", outputKernel[i]);
         }
         
@@ -64,7 +70,6 @@ void lowPassWindowSincFilter(double *sig_src_arr,
 
 // Calculate low pass filter kernel
 
-double M_PI = 3.14159265358979f;
 
 for (int i = 0; i < filterLength; i++) {
     if ((i - filterLength) / 2 == 0) {
