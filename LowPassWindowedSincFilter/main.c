@@ -42,6 +42,10 @@ int main() {
         fprintf(fptr3, "\n%lf", outputKernel[i]);
     }
 
+    fclose(fptr1);
+    fclose(fptr2);
+    fclose(fptr3);
+
     return 0;
 }
 
