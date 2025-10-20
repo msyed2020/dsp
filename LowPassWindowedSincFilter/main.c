@@ -1,3 +1,6 @@
+// THIS CODE IS BROKEN AND FOR LOGISTICAL/PERSONAL REASONS,
+// WILL NOT BE FIXED
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
