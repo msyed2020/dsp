@@ -37,9 +37,14 @@ int main() {
     fptr3 = fopen("output_kernel.dat", "w");
 
     for (int i = 0; i < SIG_LENGTH; i++) {
-        fprintf(fptr1, "\n%lf", outputSignal[i]);
         fprintf(fptr2, "\n%lf", InputSignal_f32_1kHz_15kHz[i]);
-        fprintf(fptr3, "\n%lf", outputKernel[i]);
+        if (i >= KERNEL_LENGTH) {
+            fprintf(fptr1, "\n%lf", outputSignal[i]);
+        }
+        if (i <= KERNEL_LENGTH) {
+            fprintf(fptr3, "\n%lf", outputKernel[i]);
+        }
+        
     }
 
     fclose(fptr1);
