@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
+void lowPassWindowSincFilter(double *sig_src_arr,
+                            double *sig_dest_arr,
+                            double *fltr_kernel_dest,
+                            double cutoffFreq,
+                            int filterLength,
+                            int inputSigLength);
+
 /*
 
 Cutoff frequency is normalized. Must be between
