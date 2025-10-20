@@ -60,71 +60,32 @@ int main() {
     return 0;
 }
 
-// void lowPassWindowSincFilter(double *sig_src_arr,
-//                             double *sig_dest_arr,
-//                             double *fltr_kernel_dest,
-//                             double cutoffFreq,
-//                             int filterLength,
-//                             int inputSigLength)
-// {
-
-// // Calculate low pass filter kernel
-
-// int M = filterLength / 2;
-
-// for (int i = 0; i < filterLength; i++) {
-//     if (i == M) {
-//         fltr_kernel_dest[i] = 2 * M_PI * cutoffFreq;
-//     }
-//     else {
-//         fltr_kernel_dest[i] = sin(2 * M_PI * cutoffFreq * (i - M)) / (M_PI * (i - M));
-//         fltr_kernel_dest[i] *= (0.54 - 0.46*cos(2 * M_PI * (i / filterLength)));
-//     }
-// }
-
-// for (int j = filterLength; j < inputSigLength; j++) {
-//     sig_dest_arr[j] = 0.0;
-//     for (int i = 0; i < filterLength; i++) {
-//         sig_dest_arr[j] += sig_src_arr[j - i] * fltr_kernel_dest[i];
-//     }
-// }
-
-// }
-
 void lowPassWindowSincFilter(double *sig_src_arr,
-                             double *sig_dest_arr,
-                             double *fltr_kernel_dest,
-                             double cutoffFreq,
-                             int filterLength,
-                             int inputSigLength)
+                            double *sig_dest_arr,
+                            double *fltr_kernel_dest,
+                            double cutoffFreq,
+                            int filterLength,
+                            int inputSigLength)
 {
-    int M = (filterLength - 1) / 2;
 
-    // Build filter kernel
+// Calculate low pass filter kernel
+
+
+for (int i = 0; i < filterLength; i++) {
+    if ((i - filterLength - 1) / 2 == 0) {
+        fltr_kernel_dest[i] = 2 * M_PI * cutoffFreq;
+    }
+    else {
+        fltr_kernel_dest[i] = sin(2 * M_PI * cutoffFreq * (i - filterLength - 1 / 2)) / (i - filterLength - 1 / 2);
+        fltr_kernel_dest[i] *= (0.54 - 0.46*cos(2 * M_PI * i / filterLength));
+    }
+}
+
+for (int j = filterLength; j < inputSigLength; j++) {
+    sig_dest_arr[j] = 0;
     for (int i = 0; i < filterLength; i++) {
-        if (i == M) {
-            fltr_kernel_dest[i] = 2 * cutoffFreq;
-        } else {
-            fltr_kernel_dest[i] =
-                sin(2 * M_PI * cutoffFreq * (i - M)) /
-                (M_PI * (i - M));
-        }
-        // Apply Hamming window
-        fltr_kernel_dest[i] *= (0.54 - 0.46 * cos(2 * M_PI * i / (filterLength - 1)));
+        sig_dest_arr[j] += sig_src_arr[j - i] * fltr_kernel_dest[i];
     }
+}
 
-    // Normalize kernel gain
-    double sum = 0.0;
-    for (int i = 0; i < filterLength; i++)
-        sum += fltr_kernel_dest[i];
-    for (int i = 0; i < filterLength; i++)
-        fltr_kernel_dest[i] /= sum;
-
-    // Convolution
-    for (int j = filterLength - 1; j < inputSigLength; j++) {
-        sig_dest_arr[j] = 0.0;
-        for (int i = 0; i < filterLength; i++) {
-            sig_dest_arr[j] += sig_src_arr[j - i] * fltr_kernel_dest[i];
-        }
-    }
 }
