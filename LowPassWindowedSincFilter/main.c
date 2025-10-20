@@ -25,6 +25,13 @@ Cutoff frequency is normalized. Must be between
 
 int main() {
 
+    lowPassWindowSincFilter((double *) InputSignal_f32_1kHz_15kHz,
+                            (double *) outputSignal,
+                            (double *) outputKernel,
+                            (double) 0.2,
+                            (int) KERNEL_LENGTH,
+                            (int) SIG_LENGTH);
+
     return 0;
 }
 
