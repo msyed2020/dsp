@@ -1,12 +1,6 @@
 // THIS CODE IS BROKEN AND FOR LOGISTICAL/PERSONAL REASONS,
 // WILL NOT BE FIXED
 
-// Too tired to finish up DSP today, will prolly finish friday or smth
-
-// Rock n roll
-
-// will take you to the mountain
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
