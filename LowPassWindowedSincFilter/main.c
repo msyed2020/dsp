@@ -3,6 +3,9 @@
 
 // Too tired to finish up DSP today, will prolly finish friday or smth
 
+// Rock n roll
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
