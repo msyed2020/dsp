@@ -2,10 +2,6 @@
 // WILL NOT BE FIXED
 
 
-// TOMORROWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
-
-// I HAD A LONG DAY
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
