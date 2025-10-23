@@ -1,6 +1,8 @@
 // THIS CODE IS BROKEN AND FOR LOGISTICAL/PERSONAL REASONS,
 // WILL NOT BE FIXED
 
+// Ok will take one more day then we comin frfr
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
