@@ -4,6 +4,17 @@
 #define SIG_LENGTH  320
 #define KERNEL_LENGTH   29
 
+void bandPassWindowedSinc(
+                        double *lowerCutoffStateBuff,
+                        double *upperCutoffStateBuff,
+                        double *filterKernelDestinationArr,
+                        double lowerCutoff,
+                        double upperCutoff,
+                        int filterLength,
+                        double *sigSrcArr,
+                        double *sigDestArr,
+                        int inputSigLength);
+
 int main() {
     
 
@@ -20,3 +31,6 @@ void bandPassWindowedSinc(
                         double *sigSrcArr,
                         double *sigDestArr,
                         int inputSigLength)
+{
+    
+}
