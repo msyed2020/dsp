@@ -3,6 +3,7 @@
 
 // WILL COME BACK AFTER SOME REST
 
+// NO MORE PITY
 
 #include <stdio.h>
 #include <stdlib.h>
