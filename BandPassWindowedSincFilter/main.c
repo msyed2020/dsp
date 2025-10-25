@@ -7,6 +7,8 @@
 #define SIG_LENGTH  320
 #define KERNEL_LENGTH   29
 
+// WIP as of now
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
