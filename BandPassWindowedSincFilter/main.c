@@ -7,12 +7,6 @@
 #define SIG_LENGTH  320
 #define KERNEL_LENGTH   29
 
-// WIP as of now
-
-// am i gandalf or dumbledore
-
-// whats even vibe coding and why u ai'ing it
-
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
