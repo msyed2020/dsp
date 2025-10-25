@@ -9,6 +9,8 @@
 
 // WIP as of now
 
+// am i gandalf or dumbledore
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
