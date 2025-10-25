@@ -11,6 +11,8 @@
 
 // am i gandalf or dumbledore
 
+// whats even vibe coding and why u ai'ing it
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
