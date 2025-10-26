@@ -66,4 +66,14 @@ void bandPassWindowedSinc(
     }
     upperCutoffStateBuff[filterLength / 2] += 1;
 
+    // Add low pass filter kernel to high pass filter kernel to form a band reject filter kernel
+
+    for (int i = 0; i < filterLength; i++) {
+        filterKernelDestinationArr[i] = lowerCutoffStateBuff[i] + upperCutoffStateBuff[i];
+    }
+
+    // Change band reject filter into bandpass filter using spectral inversion
+
+    
+
 }
