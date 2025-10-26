@@ -47,4 +47,18 @@ void bandPassWindowedSinc(
         }
     }
 
+    // Calculating the second low pass filter kernel
+
+    for (int i = 0; i < filterLength; i++) {
+        if (filterLength / 2 == 0) {
+            upperCutoffStateBuff[i] = 2 * M_PI * upperCutoff;
+        }
+        if (filterLength / 2 != 0) {
+            upperCutoffStateBuff[i] = sin(2 * M_PI * upperCutoff * (i - filterLength / 2)) / (i - filterLength / 2);
+            upperCutoffStateBuff[i] = upperCutoffStateBuff[i] * (0.42 - 0.5 * cos(2 * M_PI * i / filterLength) + 0.08 * cos(4 * M_PI * i / filterLength));
+        }
+    }
+
+    
+
 }
