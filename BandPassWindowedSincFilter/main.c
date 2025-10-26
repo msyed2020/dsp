@@ -74,6 +74,15 @@ void bandPassWindowedSinc(
 
     // Change band reject filter into bandpass filter using spectral inversion
 
-    
+    for (int i = 0; i < filterLength; i++) {
+        filterKernelDestinationArr[i] = -(filterKernelDestinationArr[i]);
+    }    
+    filterKernelDestinationArr[filterLength / 2] += 1;
 
+    for (int j = filterLength; j < inputSigLength; j++) {
+        sigDestArr[j] = 0;
+        for (int i = 0; i < filterLength; i++) {
+            sigDestArr[j] += sigSrcArr[j - i] * filterKernelDestinationArr[i];
+        }
+    }
 }
