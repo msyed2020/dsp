@@ -59,6 +59,11 @@ void bandPassWindowedSinc(
         }
     }
 
-    
+    // Change low pass filter kernel to a high pass filter kernel using Spectral Inversion
+
+    for (int i = 0; i < filterLength; i++) {
+        upperCutoffStateBuff[i] = -(upperCutoffStateBuff[i]);
+    }
+    upperCutoffStateBuff[filterLength / 2] += 1;
 
 }
