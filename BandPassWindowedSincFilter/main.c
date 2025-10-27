@@ -13,6 +13,8 @@ double outputFilter[KERNEL_LENGTH];
 double stateLowerCutoffBuff[KERNEL_LENGTH];
 double stateUpperCutoffBuff[KERNEL_LENGTH];
 
+// Will pick up maybe tmrw or wednesday depending on mood or rest
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
