@@ -15,6 +15,8 @@ double stateUpperCutoffBuff[KERNEL_LENGTH];
 
 // Will pick up maybe tmrw or wednesday depending on mood or rest
 
+// I should've finished this but my body and mind are taking a heavy beatdown
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
