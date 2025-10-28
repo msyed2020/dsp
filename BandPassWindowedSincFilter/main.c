@@ -13,6 +13,8 @@ double outputFilter[KERNEL_LENGTH];
 double stateLowerCutoffBuff[KERNEL_LENGTH];
 double stateUpperCutoffBuff[KERNEL_LENGTH];
 
+// need to rest again today :(
+
 void bandPassWindowedSinc(
                         double *lowerCutoffStateBuff,
                         double *upperCutoffStateBuff,
