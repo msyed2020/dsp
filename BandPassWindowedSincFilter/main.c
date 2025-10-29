@@ -9,6 +9,9 @@
 
 // compile: gcc main.c waveforms.c -o bpwsf -lm
 
+// DUE TO COMPILER ISSUES, THIS CODE IS BROKEN AND 
+// FOR LOGISTICAL/PERSONAL REASONS, WILL NOT BE FIXED
+
 extern double InputSignal_f32_1kHz_15kHz[320];
 double outputSignal[SIG_LENGTH - KERNEL_LENGTH];
 double outputFilter[KERNEL_LENGTH];
