@@ -7,6 +7,8 @@
 #define SIG_LENGTH  320
 #define KERNEL_LENGTH   29
 
+// compile: gcc main.c waveforms.c -o bpwsf -lm
+
 extern double InputSignal_f32_1kHz_15kHz[320];
 double outputSignal[SIG_LENGTH - KERNEL_LENGTH];
 double outputFilter[KERNEL_LENGTH];
