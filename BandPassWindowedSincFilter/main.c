@@ -53,6 +53,10 @@ int main() {
         }
     }
 
+    fclose(fptr);
+    fclose(fptr2);
+    fclose(fptr3);
+
     return 0;
 }
 
