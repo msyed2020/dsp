@@ -43,7 +43,15 @@ int main() {
     fptr2 = fopen("output_signal.dat", "w");
     fptr3 = fopen("output_kernel.dat", "w");
 
-    
+    for (int i = 0; i < SIG_LENGTH; i++) {
+        fprintf(fptr, "\n%lf", InputSignal_f32_1kHz_15kHz[i]);
+        if (i < KERNEL_LENGTH) {
+            fprintf(fptr3, "\n%lf", outputFilter[i]);
+        }
+        if (i > KERNEL_LENGTH) {
+            fprintf(fptr2, "\n%lf", outputSignal[i]);
+        }
+    }
 
     return 0;
 }
