@@ -26,17 +26,24 @@ void bandPassWindowedSinc(
 
 int main() {
     
+    FILE *fptr, *fptr2, *fptr3;
 
     bandPassWindowedSinc(
-                        (double *) stateLowerCutoffBuff,
-                        (double *) stateUpperCutoffBuff,
-                        (double *) outputFilter,
-                        (double) 0.2,
-                        (double) 0.5,
+                        (double *) &stateLowerCutoffBuff[0],
+                        (double *) &stateUpperCutoffBuff[0],
+                        (double *) &outputFilter[0],
+                        (double) 0.002,
+                        (double) 0.11,
                         (int) KERNEL_LENGTH,
-                        (double) InputSignal_f32_1kHz_15kHz,
-                        (double) outputSignal,
+                        InputSignal_f32_1kHz_15kHz,
+                        outputSignal,
                         (int) SIG_LENGTH);
+
+    fptr = fopen("input_signal.dat", "w");
+    fptr2 = fopen("output_signal.dat", "w");
+    fptr3 = fopen("output_kernel.dat", "w");
+
+    
 
     return 0;
 }
