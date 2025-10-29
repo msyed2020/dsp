@@ -27,6 +27,17 @@ void bandPassWindowedSinc(
 int main() {
     
 
+    bandPassWindowedSinc(
+                        (double *) stateLowerCutoffBuff,
+                        (double *) stateUpperCutoffBuff,
+                        (double *) outputFilter,
+                        (double) 0.2,
+                        (double) 0.5,
+                        (int) KERNEL_LENGTH,
+                        (double) InputSignal_f32_1kHz_15kHz,
+                        (double) outputSignal,
+                        (int) SIG_LENGTH);
+
     return 0;
 }
 
