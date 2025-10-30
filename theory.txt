@@ -613,3 +613,5 @@ in what's called the Windowed Sinc Filter Kernel
 -- DSP IS COMPLETE
 
 -- NOW TAKING A ONE WEEK BREAK
+
+-- THEN ITS SHOWTIME
