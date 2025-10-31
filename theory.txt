@@ -611,3 +611,5 @@ in what's called the Windowed Sinc Filter Kernel
 - See figure33.jpg for the formula on calculating the Windowed Sinc Filter Kernel
 
 -- PLACEHOLDER
+
+--- HAPPY HALLOWEEN
