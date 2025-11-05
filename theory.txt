@@ -613,3 +613,5 @@ in what's called the Windowed Sinc Filter Kernel
 --- WOO not liking the ER
 
 -- Doing work is gonna be refreshing sooner or later
+
+-- Think I just don't like my occ that's all
