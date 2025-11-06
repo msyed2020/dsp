@@ -611,3 +611,5 @@ in what's called the Windowed Sinc Filter Kernel
 - See figure33.jpg for the formula on calculating the Windowed Sinc Filter Kernel
 
 --- I'll be cracked at music I promise XD
+
+--- Keep finding excuses and you won't be successful
