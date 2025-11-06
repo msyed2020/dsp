@@ -613,3 +613,5 @@ in what's called the Windowed Sinc Filter Kernel
 --- I'll be cracked at music I promise XD
 
 --- Keep finding excuses and you won't be successful
+
+-- Don't need no ai for validation
