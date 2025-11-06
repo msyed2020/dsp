@@ -609,9 +609,3 @@ in what's called the Windowed Sinc Filter Kernel
 - M roughly equals 4/BW (BW = bandwidth (width of a transition band)) between 0 and 0.5
 
 - See figure33.jpg for the formula on calculating the Windowed Sinc Filter Kernel
-
---- I'll be cracked at music I promise XD
-
---- Keep finding excuses and you won't be successful
-
--- Don't need no ai for validation
