@@ -613,3 +613,5 @@ in what's called the Windowed Sinc Filter Kernel
 -- WE STILL TIRED GNG
 
 -- NOW SPEAKING IS IMPOSSIBLE
+
+-- we be back soon bbg
